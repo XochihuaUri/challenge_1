@@ -2,6 +2,8 @@ let btnDesencriptar = document.querySelector("#btn-desencriptar");
 
 btnDesencriptar.addEventListener("click", function(event){
     event.preventDefault();
+    limpiarOutput();
+
     var form = document.querySelector("#form")
     var input = document.getElementById("input-texto");
     var mensaje = input.value;

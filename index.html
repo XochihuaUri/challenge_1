@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Encriptador de mensajes</title>
   <link rel="stylesheet" href="js/style.css">
 </head>
 <body>
-  <h1 class="titulo">código secreto</h1>
+  <h1 class="titulo">Código secreto</h1>
 
   <main class="main">
     <section class="form box">
       <form action="" id="form">
-        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <label for="input-texto">El encriptador ignorará letras minúsculas y acentos.</label>
         <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
         <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
         <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
@@ -24,6 +24,7 @@
       <h2 id="">Mensaje encriptada:</h2>
       <input class="text-input" type="text" id="msg"></input>
       <input class="btn" type="submit" value="copiar" id="btn-copy">
+      <span class="invisible" id="anuncio_mensaje_copiado">¡Mensaje copiado!</span>
     </section>
   </main>
 
